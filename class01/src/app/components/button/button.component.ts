@@ -1,16 +1,21 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-button',
   templateUrl: './button.component.html',
   styleUrls: ['./button.component.css']
 })
-export class ButtonComponent {
-  // MET01. 
-  isClick = false;
+export class ButtonComponent { 
+  isClicked: boolean = false;
+
+  @Output()
+  Click: EventEmitter<void> = new EventEmitter();
+
+  @Input()
+  label: string = "";
 
   // MET02. prefira função a variáveis
-  onClick = () => {
-    console.log("clicked");
+  clicked = () => {
+    this.Click.emit();
   }
 }

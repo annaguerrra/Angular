@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-input',
@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./input.component.css']
 })
 export class InputComponent {
+  
+  @Output()
+  Show: EventEmitter<string> = new EventEmitter();
 
+  @Input()
+  label: string = "";
+
+  showMessage = () => {
+    this.Show.emit();
+  }
 }

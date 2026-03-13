@@ -1,2 +1,9 @@
-<app-input/>
-<app-button/>
+<br>
+<app-button 
+    (Click) = "foiClicado()" 
+    [label] = this.count.toString()/>
+<br>
+<br>
+<app-input
+    (Show) = "escrito()"
+    [label] = this.message/>
