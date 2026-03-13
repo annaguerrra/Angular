@@ -14,6 +14,6 @@ export class InputComponent {
   label: string = "";
 
   showMessage = () => {
-    this.Show.emit();
+    this.Show.emit(this.label);
   }
 }
