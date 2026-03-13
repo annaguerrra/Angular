@@ -13,7 +13,7 @@ export class InputComponent {
   @Input()
   label: string = "";
 
-  showMessage = () => {
-    this.Show.emit(this.label);
+  showMessage = (value: string) => {
+    this.Show.emit(value);
   }
 }

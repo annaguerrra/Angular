@@ -1,3 +1,4 @@
+<label>{{ label }}</label>
 <input 
     type="text"
-    (input)= "showMessage() = $event.target.value">
+    (input)= "showMessage($event.target.value).value">
