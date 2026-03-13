@@ -14,8 +14,4 @@ export class AppComponent {
     this.count++;
   }
 
-  escrito = () => {
-    this.message;
-  }
-
 }

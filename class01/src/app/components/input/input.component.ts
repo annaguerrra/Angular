@@ -15,5 +15,6 @@ export class InputComponent {
 
   showMessage = (value: string) => {
     this.Show.emit(value);
+    console.log(value);
   }
 }
