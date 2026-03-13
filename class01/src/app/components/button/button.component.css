@@ -1,0 +1,11 @@
+button{
+    height: 40px;
+    width: 150px;
+
+    color: honeydew;
+    font-size: 18px;
+    background-color: rgb(112, 110, 110);
+    
+    border-radius: 15px;
+    border-color: rgb(112, 110, 110);
+}
