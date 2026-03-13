@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./button.component.css']
 })
 export class ButtonComponent {
+  // MET01. 
+  isClick = false;
 
+  // MET02. prefira função a variáveis
+  onClick = () => {
+    console.log("clicked");
+  }
 }
