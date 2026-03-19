@@ -1,0 +1,23 @@
+nav{
+    width: 10rem;
+    height: calc(100vh - 5rem);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.375);
+    padding: 1rem;
+
+    section:first-child{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 0.5rem;
+    }
+
+    section:last-child{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 1rem;
+    }
+}
+

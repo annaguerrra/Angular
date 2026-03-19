@@ -11,3 +11,5 @@ npm start
 npm i 
 
 ng generate component components/input
+
+ng g c features/login-page
