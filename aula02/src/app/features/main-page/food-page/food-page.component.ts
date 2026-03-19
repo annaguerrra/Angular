@@ -8,9 +8,12 @@ import MockFood, { IFood } from './Food.mock';
 })
 export class FoodPageComponent {
 
+
+
   protected dishes: IFood[] = []
 
   constructor(){
     this.dishes = MockFood;
   }
 }
+

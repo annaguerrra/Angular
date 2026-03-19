@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { IFood } from '../../Food.mock';
 
 @Component({
   selector: 'app-card-food',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class CardFoodComponent {
 
+  @Input()
+  dishe!: IFood;
+  
 }
