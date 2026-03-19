@@ -4,7 +4,9 @@
 
     <div class="_dishes">
         <div class="dish" *ngFor="let sushi of dishes; track: $index">
-            {{sushi.name}}
+            <app-card-food>
+                {{sushi.name}}
+            </app-card-food>
         </div>
     </div>
 </div>

@@ -11,6 +11,7 @@ import { NavComponent } from './shared/nav/nav.component';
 import { MarketPageComponent } from './features/main-page/market-page/market-page.component';
 import { FoodPageComponent } from './features/main-page/food-page/food-page.component';
 import { FormsModule } from '@angular/forms';
+import { CardFoodComponent } from './features/main-page/food-page/components/card-food/card-food.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FormsModule } from '@angular/forms';
     HeaderComponent,
     NavComponent,
     MarketPageComponent,
-    FoodPageComponent
+    FoodPageComponent,
+    CardFoodComponent
   ],
   imports: [
     BrowserModule,
