@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { IMarket, MockMarket } from './Market.mock';
 
 @Component({
   selector: 'app-market-page',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./market-page.component.css']
 })
 export class MarketPageComponent {
+  protected markets: IMarket[] = []
 
+  constructor(){
+    this.markets = MockMarket;
+  }
 }

@@ -1,1 +1,9 @@
-<p>market-page works!</p>
+<div>
+    <h1>Restaurants</h1>
+    
+    <div class="_markets">
+        <div class="mkt" *ngFor="let restaurant of markets; track: $index">
+            {{restaurant.name}}
+        </div>
+    </div>
+</div>

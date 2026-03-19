@@ -1,4 +1,5 @@
 export interface IFood{
+    id: number,
     name: string,
     price: number,
     category?: string,
@@ -8,6 +9,7 @@ export interface IFood{
 
 export const MockFood: IFood[] = [
     {
+        id: 1,
         name: "Salmon Philadelphia Uramaki",
         price: 32.50,
         category: "Sushi",
@@ -15,6 +17,7 @@ export const MockFood: IFood[] = [
         nutrionalValue: "250 kcal per portion"
     },
     {
+        id: 2,
         name: "Salmon Sashimi",
         price: 45.00,
         category: "Raw Fish",
@@ -22,6 +25,7 @@ export const MockFood: IFood[] = [
         nutrionalValue: "180 kcal per portion"
     },
     {
+        id: 3,
         name: "Tuna Temaki",
         price: 28.90,
         category: "Hand Rolls",
@@ -29,6 +33,7 @@ export const MockFood: IFood[] = [
         nutrionalValue: "210 kcal per unit"
     },
     {
+        id: 4,
         name: "Pork Gyoza",
         price: 22.00,
         category: "Starters",
@@ -36,6 +41,7 @@ export const MockFood: IFood[] = [
         nutrionalValue: "150 kcal (3 pieces)"
     },
     {
+        id: 5,
         name: "Hot Roll",
         price: 35.00,
         category: "Fried Sushi",
