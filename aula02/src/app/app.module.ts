@@ -9,6 +9,7 @@ import { NotFoundPageComponent } from './features/not-found-page/not-found-page.
 import { HeaderComponent } from './shared/header/header.component';
 import { NavComponent } from './shared/nav/nav.component';
 import { MarketPageComponent } from './features/main-page/market-page/market-page.component';
+import { FoodPageComponent } from './features/main-page/food-page/food-page.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MarketPageComponent } from './features/main-page/market-page/market-pag
     NotFoundPageComponent,
     HeaderComponent,
     NavComponent,
-    MarketPageComponent
+    MarketPageComponent,
+    FoodPageComponent
   ],
   imports: [
     BrowserModule,
