@@ -1,1 +1,10 @@
-<p>food-page works!</p>
+<div>
+    <h1>Foods</h1>
+    {{dishes[0].name}}
+
+    <div class="_dishes">
+        <div class="dish" *ngFor="let sushi of dishes; track: $index">
+            {{sushi.name}}
+        </div>
+    </div>
+</div>

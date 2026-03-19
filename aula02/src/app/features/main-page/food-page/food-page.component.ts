@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import MockFood, { IFood } from './Food.mock';
 
 @Component({
   selector: 'app-food-page',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class FoodPageComponent {
 
+  protected dishes: IFood[] = []
+
+  constructor(){
+    this.dishes = MockFood;
+  }
 }
