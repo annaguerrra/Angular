@@ -13,8 +13,8 @@ export class InputComponent {
   @Input()
   label: string = "";
 
-  showMessage = (value: string) => {
+  onInputChange = (value: Event) => {
+    console.log(value );
     this.Show.emit(value);
-    console.log(value);
   }
 }
