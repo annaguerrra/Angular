@@ -5,3 +5,9 @@
 
     background-color: #181818;
 }
+
+.main{
+    width: 100%;
+    height: calc(100vh - 5rem);
+    overflow: auto;
+}

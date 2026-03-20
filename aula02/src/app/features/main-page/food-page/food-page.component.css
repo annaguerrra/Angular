@@ -7,8 +7,9 @@
 .dish{ 
     align-items: center;
     flex-direction: row;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(4, 1fr); */
     margin: 4rem;
     gap: 1rem;
 }
