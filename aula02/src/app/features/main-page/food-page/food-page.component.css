@@ -1,20 +1,24 @@
 .container{
     display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
 }
 
 .dish{ 
-    align-items: center;
-    flex-direction: row;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    /* grid-template-columns: repeat(4, 1fr); */
-    margin: 4rem;
+    align-items: center;
+    margin: 2rem;
     gap: 1rem;
 }
 
 .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #FFFFFF;
+    font-size: 34px;
     margin: 2rem;
 }

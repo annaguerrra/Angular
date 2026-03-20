@@ -1,0 +1,36 @@
+.modal-bg{
+    position: fixed;
+    width: calc(100% - 10rem);
+    height: calc(100vh - 5vh);
+    top: 5vh;
+    left: 10rem;
+    backdrop-filter: blur(10px);
+}
+
+.modal-container{
+    position: fixed;
+    width: 10rem;
+    height: 10rem;
+    inset: 0; margin: auto;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 20rem;
+    height: 20rem;
+    box-shadow: 0 4px 8px rgb(53, 51, 51);
+    border-radius: 15px;
+    background-color: #2A2A2A;
+    
+}
+
+
+.title{
+    font-size: 22px;
+    color: #B3B3B3;
+    font-weight: bold;
+    margin: 15px;
+}

@@ -1,5 +1,6 @@
 export interface IFood{
     id: number,
+    img: string,
     name: string,
     price: number,
     category?: string,
@@ -8,46 +9,51 @@ export interface IFood{
 }
 
 export const MockFood: IFood[] = [
-    {
-        id: 1,
-        name: "Salmon Philadelphia Uramaki",
-        price: 32.50,
-        category: "Sushi",
-        description: "Inside-out roll with rice, fresh salmon, cream cheese, and chives.",
-        nutrionalValue: "250 kcal per portion"
-    },
-    {
-        id: 2,
-        name: "Salmon Sashimi",
-        price: 45.00,
-        category: "Raw Fish",
-        description: "Fresh premium salmon slices (10 pieces).",
-        nutrionalValue: "180 kcal per portion"
-    },
-    {
-        id: 3,
-        name: "Tuna Temaki",
-        price: 28.90,
-        category: "Hand Rolls",
-        description: "Crispy seaweed cone filled with rice and fresh tuna cubes.",
-        nutrionalValue: "210 kcal per unit"
-    },
-    {
-        id: 4,
-        name: "Pork Gyoza",
-        price: 22.00,
-        category: "Starters",
-        description: "Pan-fried Japanese dumplings stuffed with pork and vegetables.",
-        nutrionalValue: "150 kcal (3 pieces)"
-    },
-    {
-        id: 5,
-        name: "Hot Roll",
-        price: 35.00,
-        category: "Fried Sushi",
-        description: "Deep-fried breaded sushi roll with salmon and eel sauce.",
-        nutrionalValue: "420 kcal per portion"
-    }
+  {
+    id: 1,
+    img: "assets/urumakiSalmaoPhiladelphia.jpg",
+    name: "Salmon Philadelphia Uramaki",
+    price: 32.50,
+    category: "Sushi",
+    description: "Inside-out roll with rice, fresh salmon, cream cheese, and chives.",
+    nutrionalValue: "250 kcal per portion"
+  },
+  {
+    id: 2,
+    img: "assets/salmonSashimi.jpg",
+    name: "Salmon Sashimi",
+    category: "Sashimi",
+    description: "Fatias frescas de salmão cru, servidas puras para destacar o sabor e a textura do peixe.",
+    price: 28.00,
+    nutrionalValue: "200 kcal"
+  },
+  {
+    id: 3,
+    img: "assets/tunaTemaki.jpg",
+    name: "Tuna Temaki",
+    category: "Temaki",
+    description: "Cone de alga recheado com arroz e atum fresco, finalizado com cebolinha para um toque especial.",
+    price: 22.00,
+    nutrionalValue: "220 kcal"
+  },
+  {
+    id: 4,
+    img: "assets/porkGuioza.png",
+    name: "Pork Gyoza",
+    category: "Aperitivos Quentes",
+    description: "Pastéis japoneses recheados com carne suína e legumes, levemente grelhados e servidos com molho especial.",
+    price: 18.00,
+    nutrionalValue: "300 kcal"
+  },
+  {
+    id: 5,
+    img: "assets/hot-roll.jpg",
+    name: "Hot Roll",
+    category: "Sushi Especial",
+    description: "Uramaki empanado e frito, recheado com salmão e cream cheese, crocante por fora e cremoso por dentro.",
+    price: 30.00,
+    nutrionalValue: "350 kcal"
+  }
 ];
 
 export default MockFood;

@@ -1,11 +1,12 @@
-<div class="container">
-    <div class="card">
-        <p>{{dishe.name}}</p>
+<div (click)= "clicked()" class="card">
+    <img src={{dishe.img}} alt="">
+    <p class="title">{{dishe.name}}</p>
+    <div class="text">
         <p>{{dishe.category}}</p>
-        <p>{{dishe.price}}</p>
+        <p class="price">{{dishe.price}}</p>
         <p>{{dishe.description}}</p>
         <p>{{dishe.nutrionalValue}}</p>
     </div>
-
 </div>
+
 

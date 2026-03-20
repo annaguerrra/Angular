@@ -1,25 +1,30 @@
 header{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
     background-color: #141414;
 
     width: 100%;
-    
+    height: 5vh;
 }
 
 .links{
     display: flex;
     gap: 1rem;
-
-    color: #B3B3B3;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-    text-decoration: none;
+    
 }
 
 .header{
     color: #e50914;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+a{
+    color: #B3B3B3;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    
 }
