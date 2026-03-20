@@ -56,7 +56,7 @@ export const MockFood: IFood[] = [
   },
   {
   id: 6,
-  img: "assets/images/california.jpg",
+  img: "assets/california.jpg",
   name: "California Roll",
   price: 26.00,
   category: "Sushi",
@@ -65,7 +65,7 @@ export const MockFood: IFood[] = [
 },
 {
   id: 7,
-  img: "assets/images/ebi-uramaki.jpg",
+  img: "assets/ebi-uramaki.jpg",
   name: "Ebi Uramaki",
   price: 34.00,
   category: "Sushi",
@@ -74,7 +74,7 @@ export const MockFood: IFood[] = [
 },
 {
   id: 8,
-  img: "assets/images/kappa-maki.jpg",
+  img: "assets/kappa-maki.jpg",
   name: "Kappa Maki",
   price: 18.00,
   category: "Sushi",
@@ -83,7 +83,7 @@ export const MockFood: IFood[] = [
 },
 {
   id: 9,
-  img: "assets/images/salmon-nigiri.jpg",
+  img: "assets/salmon-nigiri.jpg",
   name: "Salmon Nigiri",
   price: 20.00,
   category: "Nigiri",
@@ -92,7 +92,7 @@ export const MockFood: IFood[] = [
 },
 {
   id: 10,
-  img: "assets/images/tuna-nigiri.jpg",
+  img: "assets/tuna-nigiri.jpg",
   name: "Tuna Nigiri",
   price: 22.00,
   category: "Nigiri",
@@ -101,7 +101,7 @@ export const MockFood: IFood[] = [
 },
 {
   id: 11,
-  img: "assets/images/yakisoba.jpg",
+  img: "assets/yakisoba.jpg",
   name: "Yakisoba",
   price: 29.00,
   category: "Pratos Quentes",
@@ -110,7 +110,7 @@ export const MockFood: IFood[] = [
 },
 {
   id: 12,
-  img: "assets/images/tempura.jpg",
+  img: "assets/tempura.jpg",
   name: "Tempura",
   price: 27.00,
   category: "Aperitivos Quentes",
@@ -119,7 +119,7 @@ export const MockFood: IFood[] = [
 },
 {
   id: 13,
-  img: "assets/images/misso.jpg",
+  img: "assets/misso.jpg",
   name: "Missoshiru",
   price: 12.00,
   category: "Entradas",
@@ -128,7 +128,7 @@ export const MockFood: IFood[] = [
 },
 {
   id: 14,
-  img: "assets/images/sunomono.jpg",
+  img: "assets/sunomono.jpg",
   name: "Sunomono",
   price: 14.00,
   category: "Entradas",
@@ -137,7 +137,7 @@ export const MockFood: IFood[] = [
 },
 {
   id: 15,
-  img: "assets/images/combinado-20.jpg",
+  img: "assets/combinado-20.jpg",
   name: "Combinado 20 peças",
   price: 59.90,
   category: "Combinados",
@@ -146,7 +146,7 @@ export const MockFood: IFood[] = [
 },
 {
   id: 16,
-  img: "assets/images/combinado-40.jpg",
+  img: "assets/combinado-40.jpg",
   name: "Combinado 40 peças",
   price: 99.90,
   category: "Combinados",
