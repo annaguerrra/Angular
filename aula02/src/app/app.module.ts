@@ -14,6 +14,7 @@ import { FormsModule } from '@angular/forms';
 import { CardFoodComponent } from './features/main-page/food-page/components/card-food/card-food.component';
 import { FoodDetailsModalComponent } from './features/main-page/food-page/food-details-modal/food-details-modal.component';
 import { CardMarketComponent } from './features/main-page/market-page/components/card-market/card-market.component';
+import { ModalComponent } from './shared/modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { CardMarketComponent } from './features/main-page/market-page/components
     FoodPageComponent,
     CardFoodComponent,
     FoodDetailsModalComponent,
-    CardMarketComponent
+    CardMarketComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,

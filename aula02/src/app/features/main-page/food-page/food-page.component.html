@@ -4,12 +4,15 @@
         <app-card-food 
             *ngFor="let sushi of dishes; track: $index"
             [dishe]="sushi" 
-            (onClick)="openModal(sushi)">
+            (onClick)="onCardClick(sushi)">
         </app-card-food>
     </div>
 </div>
-<app-food-details-modal
-    *ngIf="isClicked"
-    [dishe]="selectedDish"
-    (close)="closeModal()">
-</app-food-details-modal>
+<app-modal
+    *ngIf="focusedFood"
+    (onClose)="focusedFood = undefined"
+    [Confirmation]="true"
+    [Title]="">
+
+</app-modal>
+

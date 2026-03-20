@@ -7,22 +7,22 @@ import MockFood, { IFood } from './Food.mock';
   styleUrls: ['./food-page.component.css']
 })
 export class FoodPageComponent {
-  protected isClicked = false;
-  protected selectedDish!: IFood;
+  // protected isClicked = false;
+  // protected selectedDish!: IFood;
 
   protected dishes: IFood[] = []
+  protected focusedFood?: IFood;
 
   constructor(){
     this.dishes = MockFood;
   }
   
-  openModal(dish: IFood){
-    this.selectedDish = dish;
-    this.isClicked = true;
+  onCardClick = (item: IFood){
+    this.focusedFood = item;
   }
 
-  closeModal = () => {
-    this.isClicked = false;
+  save = () => {
+    alert('Order added to cart');
   }
 }
 
