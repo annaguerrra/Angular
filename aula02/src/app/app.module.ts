@@ -13,6 +13,7 @@ import { FoodPageComponent } from './features/main-page/food-page/food-page.comp
 import { FormsModule } from '@angular/forms';
 import { CardFoodComponent } from './features/main-page/food-page/components/card-food/card-food.component';
 import { FoodDetailsModalComponent } from './features/main-page/food-page/food-details-modal/food-details-modal.component';
+import { CardMarketComponent } from './features/main-page/market-page/components/card-market/card-market.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { FoodDetailsModalComponent } from './features/main-page/food-page/food-d
     MarketPageComponent,
     FoodPageComponent,
     CardFoodComponent,
-    FoodDetailsModalComponent
+    FoodDetailsModalComponent,
+    CardMarketComponent
   ],
   imports: [
     BrowserModule,

@@ -53,7 +53,106 @@ export const MockFood: IFood[] = [
     description: "Uramaki empanado e frito, recheado com salmão e cream cheese, crocante por fora e cremoso por dentro.",
     price: 30.00,
     nutrionalValue: "350 kcal"
-  }
+  },
+  {
+  id: 6,
+  img: "assets/images/california.jpg",
+  name: "California Roll",
+  price: 26.00,
+  category: "Sushi",
+  description: "Uramaki com kani, pepino e manga, leve e refrescante.",
+  nutrionalValue: "240 kcal"
+},
+{
+  id: 7,
+  img: "assets/images/ebi-uramaki.jpg",
+  name: "Ebi Uramaki",
+  price: 34.00,
+  category: "Sushi",
+  description: "Uramaki recheado com camarão empanado e cream cheese.",
+  nutrionalValue: "320 kcal"
+},
+{
+  id: 8,
+  img: "assets/images/kappa-maki.jpg",
+  name: "Kappa Maki",
+  price: 18.00,
+  category: "Sushi",
+  description: "Hossomaki de pepino, leve e tradicional.",
+  nutrionalValue: "150 kcal"
+},
+{
+  id: 9,
+  img: "assets/images/salmon-nigiri.jpg",
+  name: "Salmon Nigiri",
+  price: 20.00,
+  category: "Nigiri",
+  description: "Bolinho de arroz coberto com fatia de salmão fresco.",
+  nutrionalValue: "180 kcal"
+},
+{
+  id: 10,
+  img: "assets/images/tuna-nigiri.jpg",
+  name: "Tuna Nigiri",
+  price: 22.00,
+  category: "Nigiri",
+  description: "Arroz temperado coberto com atum fresco.",
+  nutrionalValue: "170 kcal"
+},
+{
+  id: 11,
+  img: "assets/images/yakisoba.jpg",
+  name: "Yakisoba",
+  price: 29.00,
+  category: "Pratos Quentes",
+  description: "Macarrão oriental salteado com legumes e carne ao molho especial.",
+  nutrionalValue: "400 kcal"
+},
+{
+  id: 12,
+  img: "assets/images/tempura.jpg",
+  name: "Tempura",
+  price: 27.00,
+  category: "Aperitivos Quentes",
+  description: "Legumes e camarões empanados e fritos, leves e crocantes.",
+  nutrionalValue: "350 kcal"
+},
+{
+  id: 13,
+  img: "assets/images/misso.jpg",
+  name: "Missoshiru",
+  price: 12.00,
+  category: "Entradas",
+  description: "Sopa tradicional japonesa à base de missô, tofu e cebolinha.",
+  nutrionalValue: "90 kcal"
+},
+{
+  id: 14,
+  img: "assets/images/sunomono.jpg",
+  name: "Sunomono",
+  price: 14.00,
+  category: "Entradas",
+  description: "Salada agridoce de pepino com gergelim.",
+  nutrionalValue: "80 kcal"
+},
+{
+  id: 15,
+  img: "assets/images/combinado-20.jpg",
+  name: "Combinado 20 peças",
+  price: 59.90,
+  category: "Combinados",
+  description: "Seleção variada com sashimi, nigiri e uramaki.",
+  nutrionalValue: "600 kcal"
+},
+{
+  id: 16,
+  img: "assets/images/combinado-40.jpg",
+  name: "Combinado 40 peças",
+  price: 99.90,
+  category: "Combinados",
+  description: "Mix completo ideal para compartilhar.",
+  nutrionalValue: "1200 kcal"
+}
 ];
 
 export default MockFood;
